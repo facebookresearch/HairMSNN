@@ -1,0 +1,60 @@
+{
+    "camera": {
+        "cos_fovy": 0.6600000262260437,
+        "from": [
+            -221.48236083984375,
+            -1.6946277618408203,
+            6.213634490966797
+        ],
+        "to": [
+            0, 0, 0
+        ],
+        "up": [
+            -0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "hair": {
+        "alpha": 2.0,
+        "beta_m": 0.3,
+        "beta_n": 0.3,
+        "type": 1,
+        "sigma_a": [
+            0.06,
+            0.1,
+            0.2
+        ],
+        "geometry": "C:/Users/Projects/HairMSNN/scenes/curly/wCurly.hair"
+    },
+    "integrator": {
+        "ENV_PDF": true,
+        "MIS": true,
+        "height": 1024,
+        "image_output": "C:/Users/Projects/HairMSNN/scenes/curly/render.png",
+        "path_v1": 1,
+        "path_v2": 40,
+        "spp": 500,
+        "stats_output": "C:/Users/Projects/HairMSNN/scenes/curly/stats.json",
+        "width": 1024
+    },
+    "lights": {
+        "environment": {
+            "exr": "C:/Users/Projects/HairMSNN/scenes/envmaps/christmas_photo_studio_07_4k.exr",
+            "scale": 1.0
+        },
+        "directional": [
+            {
+                "from": [3, 3, 3],
+                "emit": [1, 1, 1]
+            }
+        ]
+    },
+    "tcnn": {
+        "config": "C:/Users/Projects/HairMSNN/scenes/curly/tcnn_hairmsnn.json",
+        "init_train": true
+    },
+    "surface": {
+        "geometry": "C:/Users/Projects/HairMSNN/scenes/curly/head.obj"
+    }
+}

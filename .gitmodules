@@ -1,0 +1,21 @@
+[submodule "extern/cyCodeBase"]
+	path = extern/cyCodeBase
+	url = https://github.com/AakashKT/cyCodeBase
+[submodule "extern/owl"]
+	path = extern/owl
+	url = https://github.com/AakashKT/owl
+[submodule "extern/imgui"]
+	path = extern/imgui
+	url = https://github.com/ocornut/imgui
+[submodule "extern/json"]
+	path = extern/json
+	url = https://github.com/nlohmann/json
+[submodule "extern/tiny-cuda-nn"]
+	path = extern/tiny-cuda-nn
+	url = https://github.com/NVlabs/tiny-cuda-nn
+[submodule "extern/tinyexr"]
+	path = extern/tinyexr
+	url = https://github.com/syoyo/tinyexr
+[submodule "extern/tinyobjloader"]
+	path = extern/tinyobjloader
+	url = https://github.com/tinyobjloader/tinyobjloader
