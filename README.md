@@ -142,3 +142,17 @@ There are quite a few other parameters in the UI that you can play with, which s
 
 ## License
 HairMSNN is MIT licensed, as found in the LICENSE file.
+
+## Citation
+If you find this repository useful in your own work, please consider citing the paper.
+```
+@article{10.1111:cgf.14895,
+  journal = {Computer Graphics Forum},
+  title = {{Accelerating Hair Rendering by Learning High-Order Scattered Radiance}},
+  author = {KT, Aakash and Jarabo, Adrian and Aliaga, Carlos and Chiang, Matt Jen-Yuan and Maury, Olivier and Hery, Christophe and Narayanan, P. J. and Nam, Giljoo},
+  year = {2023},
+  publisher = {The Eurographics Association and John Wiley & Sons Ltd.},
+  issn = {1467-8659},
+  doi = {10.1111/cgf.14895}
+}
+```
