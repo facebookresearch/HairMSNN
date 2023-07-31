@@ -34,7 +34,8 @@ git clone --recursive https://github.com/facebookresearch/HairMSNN
 ```
 <br>
 Next, create a build directory and run CMake:
-```
+
+```shell
 cd PATH_TO_CLONED_REPO
 mkdir build
 cd build
@@ -72,11 +73,11 @@ We have a custom scene description file, which can be found in ```scenes/straigh
         "ENV_PDF": true,
         "MIS": true,
         "height": 1024,
-        "image_output": *"YOUR_REPOSITORY_LOCATION/scenes/straight/render.png",
+        "image_output": *"YOUR_REPOSITORY_LOCATION/scenes/curly/render.png",
         "path_v1": 1,
         "path_v2": 40,
         "spp": 500,
-        "stats_output": *"YOUR_REPOSITORY_LOCATION/scenes/straight/stats.json",
+        "stats_output": *"YOUR_REPOSITORY_LOCATION/scenes/curly/stats.json",
         "width": 1024
     },
     "lights": {
